@@ -1,0 +1,70 @@
+  
+body{
+    font-family: 'Oxygen', sans-serif;
+    margin: 0px;
+
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 42;
+}
+.colour-orange{
+    color: orange;
+}
+.flexible-container{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+    
+}
+.half-width img{
+    width: 95%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: white;
+
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-part{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.second-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.discription-cls{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px gray; 
+}
+#full-stack-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#newbe-web-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+}
